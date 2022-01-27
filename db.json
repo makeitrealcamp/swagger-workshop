@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Leanne Graham"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "description": "Task 1",
+      "state": "TO DO",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "description": "Task 2",
+      "state": "TO DO",
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "description": "Task 3",
+      "state": "DONE",
+      "userId": 1
+    },
+    {
+      "description": "Task 4",
+      "state": "DONE",
+      "userId": 1,
+      "id": 4
+    }
+  ]
+}
