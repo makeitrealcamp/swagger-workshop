@@ -16,6 +16,7 @@ const server = http.createServer(app)
 
 expressConfig(app)
 
+
 // Start server
 function startServer() {
   server.listen(config.port, config.ip, () => {
