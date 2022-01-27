@@ -93,7 +93,7 @@ function swaggerDocs(app, port) {
     res.send(swaggerSpec);
   });
 
-  console.log(`📃🛠 Docs available at http://localhost:8080/docs`);
+  console.log(`📃🛠 Docs available at http://localhost:${port}/docs`);
 }
 
 module.exports = swaggerDocs;
