@@ -25,13 +25,13 @@ Este workshop utiliza los siguientes términos y definiciones relacionados con l
 | --------------------| --------- | ------------------ | ------------------------------------ |
 | /api/users          | GET       |                    | Get list of users                    |
 | /api/users          | POST      |                    | Creates a new user                   |
-| /api/users/:id      | GET       | `validateParamId`  | Get a single user                    |
-| /api/users/:id      | DELETE    | `validateParamId`  | Deletes a user                       |
+| /api/users/:id      | GET       |   | Get a single user                    |
+| /api/users/:id      | DELETE    |   | Deletes a user                       |
 | /api/task           | GET       |                    | Get list of task                     |
 | /api/task           | POST      |                    | Creates a new task                   |
-| /api/task/:id       | GET       | `validateParamId`  | Get a single task                    |
-| /api/task/:id       | DELETE    | `validateParamId`  | Deletes a task                       |
-| /api/task/user/:id  | GET       | `validateParamId`  | Get task by user                     |
+| /api/task/:id       | GET       |   | Get a single task                    |
+| /api/task/:id       | DELETE    |   | Deletes a task                       |
+| /api/task/user/:id  | GET       |   | Get task by user                     |
 
 ## Uso
 
