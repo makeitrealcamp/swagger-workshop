@@ -3,6 +3,7 @@
  */
 
 const express = require('express')
+const swaggerDocs = require('./config/swagger');
 const http = require('http')
 
 const config = require('./config/environment')
@@ -20,6 +21,9 @@ function startServer() {
   server.listen(config.port, config.ip, () => {
     // Routes
     routeConfig(app)
+
+    // Swagger
+    swaggerDocs(app, 8080);
 
     console.log(
       `Express server listening on ${config.port}, in ${app.get('env')} mode`
